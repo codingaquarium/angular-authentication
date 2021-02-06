@@ -120,6 +120,10 @@
               "devServerTarget": "Angular11JwtAuth:serve:production"
             }
           }
+        },
+        "deploy": {
+          "builder": "angular-cli-ghpages:deploy",
+          "options": {}
         }
       }
     }
